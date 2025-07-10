@@ -1,2 +1,1 @@
-# C-
 Important C++ notes
