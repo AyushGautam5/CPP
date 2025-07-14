@@ -11,5 +11,8 @@ C++ provides several basic data types that are used to define the type of data t
 2. **Derived Data Types** : These are the data types that are derived from other data types.
 3. **User-Defined Data Types** : These are the data types that are defined by the user.
 
-![Visual Diagram]("C:\Users\ayush\OneDrive\Pictures\Screenshots\Screenshot 2025-07-14 134432.png")
+![Visual Diagram](./Images/Data_types.png)
+
+
+
 
