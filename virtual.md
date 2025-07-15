@@ -23,11 +23,14 @@ a->speak();  // Calls Dog::speak() ✅
 
 ## Key Concepts                 
 
-`virtual`         -> Keyword used to mark a function for dynamic (runtime) dispatch            
-vtable            -> A table storing pointers to virtual functions                             
-vptr              -> A hidden pointer inside each object that points to its class's vtable     
-dynamic dispatch  -> Function call is resolved at runtime based on actual object               
-static dispatch   -> Function call is resolved at compile time based on pointer/reference type 
+| Term             | Meaning                                                                   |
+| ---------------- | ------------------------------------------------------------------------- |
+| `virtual`        | Keyword used to mark a function for dynamic (runtime) dispatch            |
+| vtable           | A table storing pointers to virtual functions                             |
+| vptr             | A hidden pointer inside each object that points to its class's vtable     |
+| dynamic dispatch | Function call is resolved at runtime based on actual object               |
+| static dispatch  | Function call is resolved at compile time based on pointer/reference type |
+
 
 ## Behavior Without Virtual Function
 
@@ -124,6 +127,8 @@ public:
 It tells the compiler:
 "Every class that derives from me must override this function."
 
+## Are There Any Other Types of Virtual Functions?
+Yes! 
 
 | Type                            | Syntax                                      | Purpose                                                       |
 | ------------------------------- | ------------------------------------------- | ------------------------------------------------------------- |
