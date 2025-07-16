@@ -9,7 +9,7 @@ class Chai{
         int servings;
         vector<string> ingridients;
 
-        //Delegating  Constructor
+        //Delegating  Constructor : Used when all the arguments are not given to create an object
         Chai(string name): Chai(name, 1, {"Water", "Tea Leaves"}){}
 
         Chai(string name, int serve, vector<string> ingr){
